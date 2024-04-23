@@ -30,6 +30,7 @@ a {
 }
 button {
   cursor: pointer;
+  display: block;
 }
 address {
   font-style: normal;
@@ -154,8 +155,8 @@ img {
   margin: 0 auto;
   border-radius: 4px;
   padding: 16px;
-  width: 169px;
-  height: 56px;
+  min-width: 169px;
+
   display: flex;
   text-align: center;
   justify-content: center;
@@ -169,7 +170,6 @@ img {
   padding-bottom: 120px;
 }
 .features-item {
-  position: 24px;
   display: flex;
   gap: 24px;
 }
@@ -231,7 +231,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-top: 16px;
+  padding-top: 8px;
 }
 .our-portfolio {
   padding-top: 120px;
@@ -250,20 +250,10 @@ img {
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 50px;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 50px 24px;
 }
 
-.portfolio-page {
-  display: flex;
-  flex-direction: row;
-  gap: 50px 24px;
-}
-.portfolio-pages {
-  display: flex;
-  flex-direction: row;
-  gap: 50px 24px;
-}
 .our-portfolio-item {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
