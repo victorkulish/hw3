@@ -57,6 +57,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .header-logo-color {
   font-family: "Raleway", sans-serif;
@@ -66,7 +67,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 .header-menu {
   display: flex;
@@ -79,6 +79,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .header-menu-link:hover,
 .Contacts-link:focus {
