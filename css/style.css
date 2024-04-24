@@ -121,16 +121,10 @@ img {
 .contacts-link:focus {
   color: #404bbf;
 }
-.hero-wrap {
-  background: #2e2f42;
-  padding-top: 188px;
-  padding-left: 315px;
-  padding-right: 315px;
-  padding-bottom: 294px;
-}
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 496px;
 }
 .hero-text {
   font-weight: 700;
@@ -142,6 +136,7 @@ img {
   max-width: 496px;
   margin: 0 auto;
   padding-bottom: 56px;
+  background: #2e2f42;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -183,7 +178,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 .features-text {
   font-size: 16px;
@@ -204,7 +199,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 80px;
+  padding-bottom: 72px;
 }
 .team-list {
   display: flex;
